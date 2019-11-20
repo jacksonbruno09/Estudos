@@ -1,0 +1,13 @@
+C:\Estudos\Arquitetura\SGC\src\SGC.Infrastructure\bin\Debug\netcoreapp2.2\SGC.Infrastructure.deps.json
+C:\Estudos\Arquitetura\SGC\src\SGC.Infrastructure\bin\Debug\netcoreapp2.2\SGC.Infrastructure.runtimeconfig.json
+C:\Estudos\Arquitetura\SGC\src\SGC.Infrastructure\bin\Debug\netcoreapp2.2\SGC.Infrastructure.runtimeconfig.dev.json
+C:\Estudos\Arquitetura\SGC\src\SGC.Infrastructure\bin\Debug\netcoreapp2.2\SGC.Infrastructure.dll
+C:\Estudos\Arquitetura\SGC\src\SGC.Infrastructure\bin\Debug\netcoreapp2.2\SGC.Infrastructure.pdb
+C:\Estudos\Arquitetura\SGC\src\SGC.Infrastructure\bin\Debug\netcoreapp2.2\SGC.ApplicationCore.dll
+C:\Estudos\Arquitetura\SGC\src\SGC.Infrastructure\bin\Debug\netcoreapp2.2\SGC.ApplicationCore.pdb
+C:\Estudos\Arquitetura\SGC\src\SGC.Infrastructure\obj\Debug\netcoreapp2.2\SGC.Infrastructure.csprojAssemblyReference.cache
+C:\Estudos\Arquitetura\SGC\src\SGC.Infrastructure\obj\Debug\netcoreapp2.2\SGC.Infrastructure.AssemblyInfoInputs.cache
+C:\Estudos\Arquitetura\SGC\src\SGC.Infrastructure\obj\Debug\netcoreapp2.2\SGC.Infrastructure.AssemblyInfo.cs
+C:\Estudos\Arquitetura\SGC\src\SGC.Infrastructure\obj\Debug\netcoreapp2.2\SGC.Infrastructure.csproj.CopyComplete
+C:\Estudos\Arquitetura\SGC\src\SGC.Infrastructure\obj\Debug\netcoreapp2.2\SGC.Infrastructure.dll
+C:\Estudos\Arquitetura\SGC\src\SGC.Infrastructure\obj\Debug\netcoreapp2.2\SGC.Infrastructure.pdb
