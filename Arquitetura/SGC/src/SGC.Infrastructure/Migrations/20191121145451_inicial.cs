@@ -96,13 +96,13 @@ namespace SGC.Infrastructure.Migrations
                         column: x => x.ClienteId,
                         principalTable: "Cliente",
                         principalColumn: "ClienteID",
-                        onDelete: ReferentialAction.Cascade);
+                        onDelete: ReferentialAction.Restrict);
                     table.ForeignKey(
                         name: "FK_ProfissaoCliente_Profissao_ProfissaoId",
                         column: x => x.ProfissaoId,
                         principalTable: "Profissao",
                         principalColumn: "ProfissaoID",
-                        onDelete: ReferentialAction.Cascade);
+                        onDelete: ReferentialAction.Restrict);
                 });
 
             migrationBuilder.CreateTable(
@@ -125,7 +125,7 @@ namespace SGC.Infrastructure.Migrations
                         column: x => x.ClienteID,
                         principalTable: "Cliente",
                         principalColumn: "ClienteID",
-                        onDelete: ReferentialAction.Cascade);
+                        onDelete: ReferentialAction.Restrict);
                     table.ForeignKey(
                         name: "FK_Contato_Endereco_EnderecoID",
                         column: x => x.EnderecoID,

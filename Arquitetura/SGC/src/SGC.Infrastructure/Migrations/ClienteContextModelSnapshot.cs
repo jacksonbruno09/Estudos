@@ -163,7 +163,7 @@ namespace SGC.Infrastructure.Migrations
                     b.HasOne("SGC.ApplicationCore.Entity.Cliente", "Cliente")
                         .WithMany("Contatos")
                         .HasForeignKey("ClienteID")
-                        .OnDelete(DeleteBehavior.Cascade);
+                        .OnDelete(DeleteBehavior.Restrict);
 
                     b.HasOne("SGC.ApplicationCore.Entity.Endereco")
                         .WithMany("Contatos")
@@ -190,12 +190,12 @@ namespace SGC.Infrastructure.Migrations
                     b.HasOne("SGC.ApplicationCore.Entity.Cliente", "Cliente")
                         .WithMany("profissoesClientes")
                         .HasForeignKey("ClienteId")
-                        .OnDelete(DeleteBehavior.Cascade);
+                        .OnDelete(DeleteBehavior.Restrict);
 
                     b.HasOne("SGC.ApplicationCore.Entity.Profissao", "Profissao")
                         .WithMany("profissoesClientes")
                         .HasForeignKey("ProfissaoId")
-                        .OnDelete(DeleteBehavior.Cascade);
+                        .OnDelete(DeleteBehavior.Restrict);
                 });
 #pragma warning restore 612, 618
         }

@@ -10,7 +10,7 @@ using SGC.Infrastructure.Data;
 namespace SGC.Infrastructure.Migrations
 {
     [DbContext(typeof(ClienteContext))]
-    [Migration("20191121041521_inicial")]
+    [Migration("20191121145451_inicial")]
     partial class inicial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -165,7 +165,7 @@ namespace SGC.Infrastructure.Migrations
                     b.HasOne("SGC.ApplicationCore.Entity.Cliente", "Cliente")
                         .WithMany("Contatos")
                         .HasForeignKey("ClienteID")
-                        .OnDelete(DeleteBehavior.Cascade);
+                        .OnDelete(DeleteBehavior.Restrict);
 
                     b.HasOne("SGC.ApplicationCore.Entity.Endereco")
                         .WithMany("Contatos")
@@ -192,12 +192,12 @@ namespace SGC.Infrastructure.Migrations
                     b.HasOne("SGC.ApplicationCore.Entity.Cliente", "Cliente")
                         .WithMany("profissoesClientes")
                         .HasForeignKey("ClienteId")
-                        .OnDelete(DeleteBehavior.Cascade);
+                        .OnDelete(DeleteBehavior.Restrict);
 
                     b.HasOne("SGC.ApplicationCore.Entity.Profissao", "Profissao")
                         .WithMany("profissoesClientes")
                         .HasForeignKey("ProfissaoId")
-                        .OnDelete(DeleteBehavior.Cascade);
+                        .OnDelete(DeleteBehavior.Restrict);
                 });
 #pragma warning restore 612, 618
         }
