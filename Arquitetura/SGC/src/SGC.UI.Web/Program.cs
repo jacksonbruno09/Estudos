@@ -16,7 +16,7 @@ namespace SGC.UI.Web
     {
         public static void Main(string[] args)
         {
-            //CreateWebHostBuilder(args).Build().Run();
+           
 
             var host = BuilderWebHost(args);
 
@@ -37,13 +37,16 @@ namespace SGC.UI.Web
             }
 
             host.Run();
+
+            //EF Core
+            CreateWebHostBuilder(args).Build().Run();
         }
 
 
-
-        //public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
-        //    WebHost.CreateDefaultBuilder(args)
-        //        .UseStartup<Startup>();
+        //EF Core
+        public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
+            WebHost.CreateDefaultBuilder(args)
+                .UseStartup<Startup>();
 
         public static IWebHost BuilderWebHost(string[] args) =>
             WebHost.CreateDefaultBuilder(args)

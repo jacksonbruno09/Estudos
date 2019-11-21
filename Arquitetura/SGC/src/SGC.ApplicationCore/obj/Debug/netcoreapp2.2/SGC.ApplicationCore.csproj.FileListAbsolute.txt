@@ -5,4 +5,3 @@ C:\Estudos\Arquitetura\SGC\src\SGC.ApplicationCore\obj\Debug\netcoreapp2.2\SGC.A
 C:\Estudos\Arquitetura\SGC\src\SGC.ApplicationCore\obj\Debug\netcoreapp2.2\SGC.ApplicationCore.AssemblyInfo.cs
 C:\Estudos\Arquitetura\SGC\src\SGC.ApplicationCore\obj\Debug\netcoreapp2.2\SGC.ApplicationCore.dll
 C:\Estudos\Arquitetura\SGC\src\SGC.ApplicationCore\obj\Debug\netcoreapp2.2\SGC.ApplicationCore.pdb
-C:\Estudos\Arquitetura\SGC\src\SGC.ApplicationCore\obj\Debug\netcoreapp2.2\SGC.ApplicationCore.csprojAssemblyReference.cache
