@@ -1,0 +1,7 @@
+{
+    "compileOnsave" : true, //compila ao salvar
+    "compilerOptions" : {
+        "outDir" : "dist", //salvar os arquivos js compilados na pasta dist
+        "noEmitOnError":true //nao permite gerar aquirvos js quando tiver erro
+    }
+}
